@@ -2,7 +2,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-install_requires = ['pylama']
+install_requires = ['pylama', ]
 
 
 setup(
@@ -29,7 +29,7 @@ setup(
     install_requires=install_requires,
     entry_points={
         'console_scripts': [
-            'pylama_wrapper = pre_commit_hook.pylama_wrapper:main',
+            'pylama-wrapper = pre_commit_hook.pylama_wrapper:main',
         ],
     },
 )
