@@ -1,0 +1,5 @@
+-   id: pylama
+    name: pylama
+    entry: pylama_wrapper
+    language: python
+    files: \.py$
