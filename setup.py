@@ -1,4 +1,5 @@
-import sys
+# -*- coding: utf-8 -*-
+from setuptools import find_packages
 from setuptools import setup
 
 install_requires = ['pylama']
@@ -24,7 +25,7 @@ setup(
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
     ],
-
+    packages=find_packages('.', exclude=('tests*', 'testing*')),
     install_requires=install_requires,
     entry_points={
         'console_scripts': [
