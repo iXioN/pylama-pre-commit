@@ -29,7 +29,7 @@ setup(
     install_requires=install_requires,
     entry_points={
         'console_scripts': [
-            'pylama-wrapper = pre_commit_hook.pylama_wrapper:main',
+            'pylama-wrapper = pre_commit_hook.pylama_wrapper:git_hook',
         ],
     },
 )
