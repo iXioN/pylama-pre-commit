@@ -1,5 +1,6 @@
 -   id: pylama
-    name: pylama
-    entry: pylama_wrapper
+    name: PyLama checker
+    description: "Run pylama on changed files"
+    entry: pylama-wrapper
     language: python
     files: \.py$
